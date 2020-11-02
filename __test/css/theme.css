@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(180deg, #381F7B 20.7%, #7457C8 100%);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    font-family: 'Poppins';
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1{
+    position: absolute;
+    height: 108px;
+    left: 396px;
+    top: 480px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 150%;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #E6DDFF;
+
+}
+
+p{
+    color: white;
+}
+
